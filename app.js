@@ -13,5 +13,5 @@ app.get('/qr', (req, res) => {
 
 
 app.listen(3000, () => {
-  console.log('QR code server listening on port 3000.');
+  console.log('QR code server listening on port http://localhost:3000/qr?url=');
 });
